@@ -76,7 +76,7 @@ function component(width, height, color, x, y, type) {
     this.gravitySpeed = 0;
     this.bounce = 0.6;
 
-    this.update = function() {
+   this.update = function() {
         ctx = myGameArea.context;
         if (this.type == "text") {
             ctx.font = this.width + " " + this.height;
@@ -103,7 +103,7 @@ function component(width, height, color, x, y, type) {
     
     }
     
-    this.crashWith = function(otherobj) {
+   this.crashWith = function(otherobj) {
         var myleft = this.x;
         var myright = this.x + (this.width);
         var mytop = this.y;

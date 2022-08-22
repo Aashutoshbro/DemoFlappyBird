@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<code><!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -169,7 +169,7 @@ function myFunction() {
 
 </head>
 <body onload="startGame()">
-
+</code>
 <br>
 <button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)" id="flyme" onclick="myFunction()">FLY ME</button>
 <p>CLICK the fly button to go up</p>
